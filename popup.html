@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Prompt Saver</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2><img src="assets/icon.png" alt="AI Prompt Saver" class="header-icon"> AI Prompt Saver</h2>
+        </header>
+        <div id="warning" class="warning"></div>
+        <button id="captureBtn" class="capture-btn">
+            <i class="fas fa-download"></i> Capture Chat
+        </button>
+        <div id="chatList" class="chat-list">
+            <div id="emptyState" class="empty-state" style="display:none;">
+                <i class="fas fa-inbox"></i>
+                <div>No chats saved yet</div>
+                <small>Capture your first chat to begin</small>
+            </div>
+        </div>
+    </div>
+    <div id="summaryModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="closeSummaryBtn" class="icon-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="copySummaryBtn" class="icon-btn primary">
+                    <i class="fas fa-copy"></i>
+                </button>
+                <button id="autoStartBtnModal" class="icon-btn primary" style="display:none;">
+                    <i class="fas fa-play"></i>
+                </button>
+                <select id="modelSelect" style="display:none;">
+                    <option value="chatgpt">ChatGPT</option>
+                    <option value="claude">Claude</option>
+                    <option value="deepseek">DeepSeek</option>
+                    <option value="perplexity">Perplexity</option>
+                    <option value="grok">Grok</option>
+                    <option value="gemini">Gemini</option>
+                </select>
+                <button id="openAndSendBtn" class="icon-btn primary" style="display:none;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </button>
+            </div>
+            <pre id="summaryText"></pre>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
