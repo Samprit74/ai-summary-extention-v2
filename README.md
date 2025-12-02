@@ -1,4 +1,4 @@
-# ![AI Summary Extension](assets/icon.png) AI Summary Extension v2
+# <img src="assets/icon.png" alt="AI Summary Extension" width="32" height="32"> AI Summary Extension v2
 
 **AI Summary Extension** is a Chrome extension designed to help users capture and summarize their AI chat sessions seamlessly. It solves the problem of starting a new chat from scratch by providing AI-generated continuation summaries, saving time and keeping the conversation context intact.
 
@@ -41,12 +41,12 @@ When studying or working with AI chat assistants, starting a new session often r
 
 ## 💻 Supported Platforms
 
-- ChatGPT (chat.openai.com)
-- Claude (claude.ai)
-- Grok (grok.com)
-- Gemini (gemini.google.com)
-- Perplexity (perplexity.ai)
-- DeepSeek (deepseek.com)
+- ChatGPT (chat.openai.com)  
+- Claude (claude.ai)  
+- Grok (grok.com)  
+- Gemini (gemini.google.com)  
+- Perplexity (perplexity.ai)  
+- DeepSeek (deepseek.com)  
 
 ---
 
