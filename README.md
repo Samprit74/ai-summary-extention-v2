@@ -4,7 +4,6 @@
 
 ![Version](https://img.shields.io/badge/Version-2.0-blue)
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Open Source](https://img.shields.io/badge/Open--Source-✓-brightgreen)
 
 <img src="assets/icon.png" alt="AI Summary Extension" width="128" height="128" style="border-radius: 12px; margin: 20px 0;">
