@@ -200,12 +200,7 @@ ai-summary-extension-v2/
 ├── 📄 README.md             # This documentation
 │
 ├── 📁 assets/
-│   └── icon.png            # Extension icons (various sizes)
-│
-└── 📁 screenshots/          # Documentation images
-    ├── popup-view.png
-    ├── capture-demo.png
-    └── summary-example.png
+     └── icon.png            # Extension icons (various sizes)
 ```
 
 ### **File Descriptions**
@@ -260,27 +255,6 @@ const DEFAULT_CONFIG = {
   SAVE_HISTORY: true,                  // Store summaries locally
 };
 ```
-
-### **Platform-Specific Selectors**
-
-Each AI platform has optimized CSS selectors for reliable message extraction:
-
-```javascript
-const PLATFORM_SELECTORS = {
-  "chat.openai.com": {
-    userMessages: '[data-message-author-role="user"]',
-    aiMessages: '[data-message-author-role="assistant"]',
-    messageContent: '.markdown',
-  },
-  "claude.ai": {
-    userMessages: '.user-message',
-    aiMessages: '.assistant-message',
-    messageContent: '.message-content',
-  },
-  // ... other platforms
-};
-```
-
 ---
 
 ## 🔧 How It Works
@@ -370,34 +344,6 @@ Check Chrome Developer Tools:
 - Application tab for storage inspection
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how to help:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. **Open a Pull Request**
-
-### **Areas Needing Contribution**
-- 🌐 Additional platform support
-- 🎨 UI/UX improvements
-- 📱 Mobile browser compatibility
-- 🔧 Performance optimizations
-- 🧪 Test coverage
-- 📚 Documentation improvements
-
 ### **Development Setup**
 ```bash
 # Clone repository
@@ -408,21 +354,6 @@ cd ai-summary-extention-v2
 
 # Load in Chrome (see Installation section)
 ```
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**MIT License Summary:**
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ✅ No liability
-- ✅ No warranty
-
 ---
 
 ## 🙏 Acknowledgments
@@ -438,7 +369,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support & Contact
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/Samprit74/ai-summary-extention-v2/issues)
-- **Email**: [Your email or contact form]
+- **Email**: [sampritroy1o1@gmail.com]
 - **Documentation**: This README and code comments
 
 **Need help?**
