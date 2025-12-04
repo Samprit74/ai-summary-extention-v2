@@ -391,6 +391,6 @@ cd ai-summary-extention-v2
 
 *Version 2.0 • December 2024 • Keeping your flow, one chat at a time*
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Samprit74/ai-summary-extention-v2&type=Date)](https://star-history.com/#Samprit74/ai-summary-extention-v2&Date)
+
 
 </div>
